@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&family=Varela+Round&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+nav{
+   background-color: rgba(0,0,0,0.5);
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+}
+nav ul {
+   float: right;
+}
+nav ul li {
+   padding: 0px 10px 0px 10px;
+   line-height: 100px;
+   
+}
+label{
+   padding-left: 30px;
+   line-height: 100px;
+   font-size: 30px;
+   color: white;
+}
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+nav ul li a:hover{
+   padding: 20px;
+   color: orange;
+   background-color: black;
+}
+   
+.home{
+   background-image: url('wallpaper.png');
+   background-size: 100% 100%;
+   width: 100%;
+   height: 700px;
+}
+.future {
+   color: white;
+   font-size: 60px;
+   letter-spacing: 4px;
+   word-spacing: 15px;
+   padding-top: 180px;
+   padding-left: 120px;
+}
+.tir{
+   width: 130px;
+   float: left;
+   margin-left: 100px;
+}
+.innovating{
+   padding-top: 20px;
+   color: white;
+   font-size: 20px;
+   padding-left: 200px;
+   margin-bottom: 500px;
+   
+}
+
+.product{
+   padding-left: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-right: 30px;
+}
+.product1{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.h_product{
+   text-align: center;
+   padding: 20px;
+   font-size: 50px;
+  
+}
+.img_product1{
+   width: 300px;
+   height: 250px;
+   float: left;
+   padding-right: 30px;
+} 
+.p_product1{
+   font-size: 22px;
+   font-family: 'Varela Round', sans-serif;
+}
+.product2{
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+.img_product2{
+   float: right;
+   width: 300px;
+   height: 250px;
+}
+.project img {
+   width: 25%;
+   padding: 25px;
+   padding-left: 30px;
+   
+}
+.team{
+ 
+   padding-bottom: 30px;
+   padding-left: 30px;
+   display: flex;
+}
+.h_team{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   font-size: 50px;
+}
+.member1{
+   padding: 10px;
+   width: 22%;
+   justify-content: space-between;
+   
+}
+.img_member1{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   border-radius: 100%;
+}
+.team h2{
+   font-family: 'Dela Gothic One', cursive;
+   font-size: 40px;
+   font-weight: bold;
+}
+.team h3{
+   font-family: 'Dela Gothic One', cursive;
+   font-size: 25px;
+}
+.team p{
+   font-size: 20px;
+   font-family: 'Roboto Slab', serif;
+   
+}
+.comment {
+   padding-left: 50px;
+   padding-bottom: 30px;
+}
+.comment p {
+   padding-bottom: 5px;
+   padding-top: 7px;
+   font-size: 20px;
+   
+}
+.comment input{
+   height: 25px;
+   width:  400px;
+   border: none;
+   border: 2px solid black;
+   border-radius: 3px;
+}
+.comment textarea{
+   height: 150px;
+   width: 500px;
+   border: none;
+   border: 2px solid black;
+   border-radius: 3px;
+}
+.comment .button{
+   height: 40px;
+   width: 80px;
+   border: none;
+   border: 3px solid black;
+   border-radius: 3px;
+   background: transparent;
+   background-color: white;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.button:hover{
+   background-color: #676A8C;
+   color: white;
+}
+.button:active{
+   background-color: gray;
+   color: whitesmoke;
+}
+.About_us{
+  
+   padding: 30px;
+   padding-top: 0px;
+}
+.about{
+   width: 80%;
+   text-align: center;
+   padding-left: 10%;
+   padding-right: 10%;
+   font-size: 27px;
+}
+.thanks{
+   text-align: center;
+   padding-top: 30px;
+   color: gray;
+   font-size: 25px;
+   padding-bottom: 50px;
+}
+footer h2{
+   text-align: center;
+   font-size: 30px;
+   padding: 20px;
+   padding-top: 20px;
+   color: white;
+}
+.footer_p{
+   font-size: 20px;
+   text-align: center;
+   padding: 10px;
+   padding-bottom: 25px;
+   color: white;
+   line-height: 25px;
+}
+.copy{
+   font-size: 17px;
+   text-align: center;
+   padding-top: 15px; 
+   padding-bottom: 10px;
+   color: white;
+}
+.blue{
+   background-color: #3374AC;
+}
+.dark_blue{
+   background-color: #0C1F30;
+}
+.name{
+   text-decoration: none;
+   color: mediumpurple;
+}
+.name:hover,
+.name:active{
+   color: rebeccapurple;
+}
