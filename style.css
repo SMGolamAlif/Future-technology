@@ -160,7 +160,7 @@ nav ul li a:hover{
    padding-top: 7px;
    font-size: 20px;
    font-weight: bold;
-   
+   color: #0080ff;
 }
 .comment input{
    height: 25px;
@@ -169,6 +169,7 @@ nav ul li a:hover{
    border: 2px solid black;
    border-radius: 3px;
    background-color: transparent;
+   padding-left: 10px;
    padding-left: 10px;
    
 }
